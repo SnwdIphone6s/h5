@@ -1,0 +1,42 @@
+.profilesCommunity-body {
+    display: flex;
+    width: 100%;
+
+    .profilesCommunity-modal {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+
+
+    }
+}
+
+.profilesCommunity-footer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+
+    .profilesCommunity-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .profilesCommunity-ewm {
+        flex: 1
+    }
+
+    .profilesCommunity-imgs {
+        flex: 3;
+    }
+
+}
+
+.am-list-item .am-input-label {
+    font-size: 15px;
+    color: #888;
+}

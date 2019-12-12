@@ -1,0 +1,42 @@
+.profilesHeadJpg-body {
+    display: flex;
+    width: 100%;
+
+    .profilesHeadJpg-modal {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+
+
+    }
+}
+
+.profilesHeadJpg-footer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+
+    .profilesHeadJpg-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .profilesHeadJpg-ewm {
+        flex: 1
+    }
+
+    .profilesHeadJpg-imgs {
+        flex: 3;
+    }
+
+}
+
+.am-list-item .am-input-label {
+    font-size: 15px;
+    color: #888;
+}

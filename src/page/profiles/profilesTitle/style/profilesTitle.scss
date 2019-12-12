@@ -1,0 +1,19 @@
+.profilesTitle-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid rgba(185, 162, 239, 0.3);
+    //background-image: url('../../.../../../../imgs/timg.gif');
+
+    .profilesTitle-font {
+        font-size: 14px;
+        color: rgb(223, 71, 71);
+        -webkit-animation: Glow 1.5s ease infinite alternate;
+        animation: Glow 1.5s ease infinite alternate;
+    }
+}

@@ -1,0 +1,32 @@
+.noticeView-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+    .noticeView-title {
+        flex: 0.5
+    }
+
+    .noticeView-table {
+        flex: 8;
+        width: 100%;
+        height: 100%;
+
+        .am-notice-bar {
+            background-size: cover;
+        }
+
+        .noticeView-noread {
+            color: red;
+        }
+
+        .noticeView-read {
+            color: blue
+        }
+    .noticeView-one{
+      text-align:center;
+    }
+
+    }
+}

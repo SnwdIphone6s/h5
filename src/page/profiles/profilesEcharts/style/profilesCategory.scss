@@ -1,0 +1,71 @@
+.profilesCategory-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+
+    .profilesCategory-checkbox {
+        flex: 1;
+        width: 100%;
+        height: 100%;
+        flex-direction: row;
+        justify-items: right;
+        z-index: 1001;
+
+        .profilesCategory-btn {
+            width: 100px;
+            flex-direction: row-reverse;
+            display: flex;
+        }
+
+    }
+
+    .profilesCategory-echarts {
+        flex: 8;
+        height: 100%;
+        width: 100%;
+        margin-top: -45px;
+        z-index: 1000;
+
+        @media screen and (max-width: 375px) and (min-width: 100px) {
+            .profilesCategory-media {
+                height: 300px;
+            }
+        }
+
+        @media screen and (max-width: 768px) and (min-width: 375px) {
+            .profilesCategory-media {
+                height: 410px;
+            }
+        }
+
+        @media screen and (max-width: 1024px) and (min-width: 768px) {
+            .profilesCategory-media {
+                height: 510px;
+            }
+        }
+
+        @media screen and (max-width: 1300px) and (min-width: 1024px) {
+            .profilesCategory-media {
+                height: 610px;
+            }
+        }
+
+    }
+
+    .profilesCategory-title {
+        flex: 1.2;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        text-align: center;
+
+        .profilesCategory-vote {
+            height: auto;
+            width: 80%;
+            background-color: #d7d4dc4d;
+        }
+    }
+}

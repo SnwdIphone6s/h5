@@ -1,0 +1,109 @@
+.homeRow-body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background: url(data:image/jpeg;base64,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) no-repeat 100% 100%;
+    background-size: cover;
+
+    .homeRow-rowID {
+        display: flex;
+        padding: 0 15px;
+        width: 100%;
+
+        .homeRow-items {
+            display: flex;
+            padding: 15px 0;
+            width: 100%;
+
+            .homeRow-bar {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .homeRow-canvas {
+                // height: 80px;
+                width: 20%;
+                height: 100%;
+                margin-right: 15px;
+                flex: 1;
+            }
+
+            .homeRow-title {
+                width: 100%;
+                line-height: 1;
+                flex: 5;
+                display: flex;
+                flex-direction: column;
+                justify-content: right;
+                justify-items: right;
+                font-size: 13px;
+                font-family: cursive;
+                color: black;
+
+
+                .homeRow-starName {
+                    flex: 1;
+
+                    .homeRow-v {
+                        color: red;
+                        margin-right: 10px;
+                        box-shadow: inset 0px -1px 0px 0px #d01c35;
+                        font-family: "Times New Roman";
+                    }
+                    .name_star{
+                    margin-right:10px;
+                    }
+                }
+
+                .homeRow-voteMaxValue {
+                    flex: 1;
+                    width: 100%;
+                }
+
+                .homeRow-footer {
+                    flex: 1;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    justify-items: left;
+
+                    .homeRow-todayVote {
+                        flex: 5
+                    }
+
+                    .homeRow-btnVote {
+                        display: flex;
+                        //flex: 3;
+
+                        .am-button-ghost {
+                            color: #1c96ec;
+                        }
+
+                        .homeRow-btn {
+                            display: flex;
+                            flex-direction: row;
+                            margin-left: 40px;
+                        }
+                    }
+                }
+            .fans{
+            .association{
+                padding: 0 4px;
+                    border-radius: 10%;
+    height: 25px;
+    line-height: 25px;
+            }
+            }
+
+            }
+
+        }
+    }
+
+}
+.modal{
+    .homeRow-canvas{
+    height:6rem;
+    }
+}

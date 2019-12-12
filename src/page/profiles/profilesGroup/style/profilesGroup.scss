@@ -1,0 +1,40 @@
+.profilesGroup-body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+
+    .profilesGroup-item {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profilesGroup-jy {
+        flex: 1;
+        width: 100%;
+        height: 100%;
+    }
+
+    .profilesGroup-sq {
+        flex: 1;
+        width: 100%;
+        height: 100%;
+    }
+
+    .profilesGroup-tx {
+        flex: 1;
+        width: 100%;
+        height: 100%;
+    }
+
+    .am-button {
+        font-size: 13px;
+        //background-color: #fff0;
+    }
+}

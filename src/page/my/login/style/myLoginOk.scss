@@ -1,0 +1,39 @@
+.myLoginOk-body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    .myLoginOk-items {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .myLoginOk-btn {
+        width: 30%;
+    }
+
+    .am-result {
+        background: #efefef00;
+    }
+
+    .loading-example {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .align {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub-title {
+        color: #888;
+        font-size: 14px;
+        padding: 30px 0 18px 0;
+    }
+}
